@@ -22,14 +22,14 @@ class DateBuilder extends StatelessWidget {
     } else {
       return Container(
         decoration: BoxDecoration(
-          color: Colors.grey,
+          color: LightColor.purple,
           borderRadius: BorderRadius.circular(10.0),
         ),
         padding: EdgeInsets.only(
-          bottom: 5.0,
-          top: 5.0,
-          left: 10.0,
-          right: 10.0,
+          bottom: 8.0,
+          top: 8.0,
+          left: 13.0,
+          right: 13.0,
         ),
         margin: EdgeInsets.symmetric(vertical: 10.0),
         child: Text(
@@ -38,7 +38,7 @@ class DateBuilder extends StatelessWidget {
               : DateFormat('yyyy-MMM-dd').format(date),
           style: TextStyle(
             color: Colors.white,
-            fontSize: 12.0,
+            fontSize: 14.0,
           ),
         ),
       );
