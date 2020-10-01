@@ -40,7 +40,7 @@ class LoadEarlierWidget extends StatelessWidget {
         child: Text(
           "Load Earlier Messages",
           style: TextStyle(
-            color: Theme.of(context).primaryColor,
+            color: Colors.purple,
           ),
         ),
       ),

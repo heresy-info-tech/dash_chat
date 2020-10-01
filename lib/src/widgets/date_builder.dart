@@ -22,7 +22,7 @@ class DateBuilder extends StatelessWidget {
     } else {
       return Container(
         decoration: BoxDecoration(
-          color: LightColor.purple,
+          color: Colors.purple,
           borderRadius: BorderRadius.circular(10.0),
         ),
         padding: EdgeInsets.only(
